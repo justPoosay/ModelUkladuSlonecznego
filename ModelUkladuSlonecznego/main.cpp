@@ -51,6 +51,7 @@ int main() {
     const int screenWidth = 1280;
     const int screenHeight = 800;
     InitWindow(screenWidth, screenHeight, "Uklad Sloneczny");
+    ToggleBorderlessWindowed();
 
     Font fontConsolas = LoadFont("C:\\Windows\\Fonts\\consola.ttf");
     if (fontConsolas.texture.id == 0) fontConsolas = GetFontDefault();
